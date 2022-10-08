@@ -56,6 +56,15 @@ function MY() {
                   </div>
                 </div>
               </div>
+
+              <div className="pt-4">
+                <p className="font-normal text-base md:text-xl xl:text-3xl text-white   ">
+                  Goldfinger is the fourth painting in the line of faceless
+                  portraits. Inspired by surrealism, manages to catch the beauty
+                  of women with a lot of finesse.I considers the paintings as a
+                  work on the memories we keep from our dreams.
+                </p>
+              </div>
             </div>
 
             <div className="flex flex-col border-orange rounded-2xl border-1px p-5">
@@ -69,7 +78,7 @@ function MY() {
               </div>
               <div className="pt-4" />
               <h3 className="text-lg lg:text-3xl  font-semibold text-white">
-              Goldfinge
+                Goldfinge
               </h3>
               <div className="pt-2" />
               <div className="grid grid-flow-col gap-4">
@@ -86,9 +95,17 @@ function MY() {
                     Medium:
                   </div>
                   <div className="text-sm lg:text-base font-bold text-yellow-alfa">
-                  Oil, canvas, gold
+                    Oil, canvas, gold
                   </div>
                 </div>
+              </div>
+              <div className="pt-4">
+                <p className="font-normal text-base md:text-xl xl:text-3xl text-white   ">
+                  Goldfinger is the fourth painting in the line of faceless
+                  portraits. Inspired by surrealism, manages to catch the beauty
+                  of women with a lot of finesse.I considers the paintings as a
+                  work on the memories we keep from our dreams.
+                </p>
               </div>
             </div>
           </div>
