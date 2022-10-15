@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Container from "../components/Container";
@@ -56,7 +56,6 @@ function MY() {
                   </div>
                 </div>
               </div>
-
               <div className="pt-4">
                 <p className="font-normal text-base md:text-xl xl:text-3xl text-white   ">
                   Goldfinger is the fourth painting in the line of faceless
@@ -65,8 +64,22 @@ function MY() {
                   work on the memories we keep from our dreams.
                 </p>
               </div>
+              <div className="flex justify-between pt-5">
+                <div className="pt-6 md:pt-0" />
+                <button
+                  type="button"
+                  className="py-2 px-10  bg-green-alfa text-xl rounded-lg text-white font-normal"
+                >
+                  <a
+                    target="_blank"
+                    hreff="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/66421829354916729530841030006746846596305291091491368957414518118100838121482"
+                    rel="noopener noreferrer"
+                  >
+                    Open
+                  </a>
+                </button>
+              </div>
             </div>
-
             <div className="flex flex-col border-orange rounded-2xl border-1px p-5">
               <div className="relative">
                 <Image
@@ -78,7 +91,7 @@ function MY() {
               </div>
               <div className="pt-4" />
               <h3 className="text-lg lg:text-3xl  font-semibold text-white">
-                Goldfinge
+                Goldfinger
               </h3>
               <div className="pt-2" />
               <div className="grid grid-flow-col gap-4">
@@ -106,6 +119,21 @@ function MY() {
                   of women with a lot of finesse.I considers the paintings as a
                   work on the memories we keep from our dreams.
                 </p>
+              </div>
+              <div className="flex justify-between pt-5">
+                <div className="pt-6 md:pt-0" />
+                <button
+                  type="button"
+                  className="py-2 px-10  bg-green-alfa text-xl rounded-lg text-white font-normal"
+                >
+                  <a
+                    target="_blank"
+                    hreff="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/66421829354916729530841030006746846596305291091491368957414518118100838121482"
+                    rel="noopener noreferrer"
+                  >
+                    Open
+                  </a>
+                </button>
               </div>
             </div>
           </div>

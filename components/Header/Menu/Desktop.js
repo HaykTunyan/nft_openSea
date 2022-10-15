@@ -103,11 +103,11 @@ const Desktop = ({ items, asPath, isConnected }) => {
             className="text-white px-3 py-1 pb-1"
             onClick={connectToMetamask}
           >
-            Contect Wollet
+             Wallet Connect
           </button>
         </li>
 
-        {tok?.selectedAddress  && (
+        {user  && (
           <li className={classes.menuItem}>
             <Link className="text-white " href="/account">
               My Account
